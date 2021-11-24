@@ -1,0 +1,13 @@
+//
+//  JPSDK-prefix.pch
+//  JPSDK
+//
+//  Created by 任敬 on 2021/9/14.
+//
+
+#ifndef JPSDK_prefix_pch
+#define JPSDK_prefix_pch
+
+#import "JPSDK.h"
+
+#endif /* JPSDK_prefix_pch */

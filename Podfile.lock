@@ -1,0 +1,154 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - DZNEmptyDataSet (1.8.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GPUImage (0.1.2)
+  - IQKeyboardManager (6.5.8)
+  - JPLive (0.0.1):
+    - AFNetworking
+    - DZNEmptyDataSet
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - SDAutoLayout
+    - SDWebImage
+    - TXLiteAVSDK_Smart (= 9.2.10637)
+    - YYText
+  - JPUMaterialSDK (0.0.1):
+    - AFNetworking
+    - MBProgressHUD
+    - MJExtension
+    - QCloudCOSXML (~> 5.6.6)
+    - QMUIKit/QMUIComponents/QMUIAssetLibrary (~> 4.3.0)
+    - SDWebImage
+    - UICountingLabel
+    - ZFPlayer/AVPlayer (~> 4.0.2)
+    - ZFPlayer/ControlView (~> 4.0.2)
+  - JPVideoEdit (0.1.1):
+    - FMDB
+    - GPUImage
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDAutoLayout
+    - SDCycleScrollView
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.3.0)
+  - MJRefresh (3.7.2)
+  - QCloudCore (5.6.9):
+    - QCloudCore/Default (= 5.6.9)
+  - QCloudCore/Default (5.6.9)
+  - QCloudCOSXML (5.6.9):
+    - QCloudCOSXML/Default (= 5.6.9)
+  - QCloudCOSXML/Default (5.6.9):
+    - QCloudCore (= 5.6.9)
+  - QMUIKit/QMUIComponents/QMUIAssetLibrary (4.3.0):
+    - QMUIKit/QMUICore
+  - QMUIKit/QMUICore (4.3.0):
+    - QMUIKit/QMUILog
+    - QMUIKit/QMUIWeakObjectContainer
+  - QMUIKit/QMUILog (4.3.0)
+  - QMUIKit/QMUIWeakObjectContainer (4.3.0)
+  - SDAutoLayout (2.2.1)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - TXLiteAVSDK_Smart (9.2.10637)
+  - UICountingLabel (1.4.1)
+  - YYText (1.0.7)
+  - ZFPlayer/AVPlayer (4.0.3):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (4.0.3):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.0.3)
+
+DEPENDENCIES:
+  - GPUImage (from `https://github.com/RRRenJ/JPGPUImage.git`)
+  - JPLive (from `JPLive/`)
+  - JPUMaterialSDK (from `JPUMaterialSDK/`)
+  - JPVideoEdit (from `JPSDK/`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - DZNEmptyDataSet
+    - FMDB
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - QCloudCore
+    - QCloudCOSXML
+    - QMUIKit
+    - SDAutoLayout
+    - SDCycleScrollView
+    - SDWebImage
+    - TXLiteAVSDK_Smart
+    - UICountingLabel
+    - YYText
+    - ZFPlayer
+
+EXTERNAL SOURCES:
+  GPUImage:
+    :git: https://github.com/RRRenJ/JPGPUImage.git
+  JPLive:
+    :path: JPLive/
+  JPUMaterialSDK:
+    :path: JPUMaterialSDK/
+  JPVideoEdit:
+    :path: JPSDK/
+
+CHECKOUT OPTIONS:
+  GPUImage:
+    :commit: 61841f4b05edb846745d3b8a11bb7d8ac9374fb6
+    :git: https://github.com/RRRenJ/JPGPUImage.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GPUImage: 5d510ad8b41ad159788c42d418e78af5c0d912d3
+  IQKeyboardManager: 1943526a2fa1a6ea24f90c845c274b0e80dd1912
+  JPLive: 2c1ff5851fa4a3b0b493b70bf2d8e688c832680b
+  JPUMaterialSDK: b48e9bdb993193502cfd6e2c56f1695ca92066f2
+  JPVideoEdit: 8015a6876b8a52a2062ad711f066b103390d244a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 01704cca2b60a214c10761b6491eab74069d68a9
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  QCloudCore: d2006c992ca4a6bf967ecf13aad007f2edbeb557
+  QCloudCOSXML: 74e6dda8babc752fdb47478ce64cd867844c9f28
+  QMUIKit: 67888be9aa0ee0b12b8a219fcea2eec900afd841
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  TXLiteAVSDK_Smart: d39873ee7ea2fa8c9bdf3eeab34b61cbca57008a
+  UICountingLabel: faf890b505d96312e324a86718f031fafffb0ccb
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  ZFPlayer: 624c92de06eb34df322c3b53b4c9ce760f528f7a
+
+PODFILE CHECKSUM: 47aa7bf34d352231b3be63fff2c04e78187f7da2
+
+COCOAPODS: 1.11.2

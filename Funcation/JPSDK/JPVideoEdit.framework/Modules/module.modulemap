@@ -1,0 +1,6 @@
+framework module JPVideoEdit {
+  umbrella header "JPVideoEdit.h"
+
+  export *
+  module * { export * }
+}
